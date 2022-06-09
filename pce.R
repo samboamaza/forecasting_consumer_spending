@@ -7,7 +7,7 @@ library(fGarch)
 library(ggplot2)
 
 # Set my working directory
-setwd("/Users/samboamaza/OneDrive - UWM/Courses/ECON 411 - Economic Forecasting Methods/Term Paper") 
+setwd("") #insert file path to where pce data is saved 
 
 #importing real consumer spending expendotures data
 pce <- read.csv("PCE.csv", header = TRUE)
@@ -17,7 +17,7 @@ pce <- pce[,2]
 pce.ts <- ts(pce, start = 1990, frequency = 12)
 plot(pce.ts, main = "Real Consumer Spending Expenditures" , type = "l", col = "blue", ylab = "Billions of 2012 dollars", xlab = "Year")
 
-#tesring forstaionarity 
+#testing for staionarity 
 # rejecting the null at 10% significance level
 pp.test(pce.ts)
 adf.test(pce.ts)
@@ -26,7 +26,7 @@ adf.test(pce.ts)
 acf(coredata(pce.ts), main = "ACF plot of Real Consumer Expenditures", col = "red")
 pacf(coredata(pce.ts), main = "PACF plot of Real Consumer Expenditures", col = "green")
 
-#We take the difference of the log of pce in order to make it stationary
+#take the difference of the log of pce in order to make it stationary
 pce_df <- diff(log(pce.ts))
 
 plot(pce_df, main = "Real Consumer Spending Expenditures" , type = "l", col = "blue", ylab = "Billions of 2012 dollars", xlab = "Year")
@@ -37,7 +37,7 @@ adf.test(pce_df)
 
 acf(coredata(pce_df), main = "ACF plot of Real Consumer Expenditures", col = "red")
 pacf(coredata(pce_df), main = "PACF plot of Real Consumer Expenditures", col = "green")
-#Correlogram incdicates that the difference of the log of pce is white noise model THerefore we make estimate
+#Correlogram incdicates that the difference of the log of pce is white noise model. Thus, we make estimate
 #the white noise model and make comparisons with other models
 
 #Estimating the model using ARMA(1,0,0)
