@@ -212,18 +212,23 @@ variance. Thus, enhancing the accuracy of ongoing predictions.
 McCully, Clinton P. Trends in Consumer Spending and Personal
 Saving,1959--2009. https://
 www.palmislandtraders.com/econ108/psstrend.pdf. Accessed on 04 May 2020.
+
 University of Michigan, University of Michigan: Consumer Sentiment
 \[UMCSENT\], retrieved from FRED, Federal Reserve Bank of St. Louis;
-https://fred.stlouisfed.org/series/UMCSENT, May 9, 2020. Vitez, Osmond.
-\"The Importance Of Consumer Spending\". Smallbusiness.Chron.Com, 2020,
+https://fred.stlouisfed.org/series/UMCSENT, May 9, 2020.
+
+Vitez, Osmond.\"The Importance Of Consumer Spending\". Smallbusiness.Chron.Com, 2020,
 https://smallbusiness.chron.com/importance-consumer-spending-3882.html.
+
 U.S. Bureau of Labor Statistics, Employment Level \[CE16OV\], retrieved
 from FRED, Federal Reserve Bank of St. Louis;
-https://fred.stlouisfed.org/series/CE16OV, May 12, 2020 U.S. Bureau of
-Economic Analysis, Personal Consumption Expenditures \[PCE\], retrieved
+https://fred.stlouisfed.org/series/CE16OV, May 12, 2020 
+
+U.S. Bureau of Economic Analysis, Personal Consumption Expenditures \[PCE\], retrieved
 from FRED, Federal Reserve Bank of St. Louis;
-https://fred.stlouisfed.org/series/PCE. May 9, 2020. Yahoo! Finance, S&P
-500 \[$^$GSPC\], retrieved from Yahoo! Finance;
+https://fred.stlouisfed.org/series/PCE. May 9, 2020. 
+
+Yahoo! Finance, S&P500 \[$^$GSPC\], retrieved from Yahoo! Finance;
 https://finance.yahoo.com. May 9, 2020.
 
 ## Appendix
