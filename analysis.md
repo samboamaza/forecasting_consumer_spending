@@ -1,14 +1,8 @@
----
-author:
-- |
-  Sambo Amaza\
-  ECON 411 - Economic Forecasting Methods\
-  [University of Wisconsin - Milwaukee]{.smallcaps}
-date: May 15, 2020
-title: Forecasting Consumer Spending in the United States
----
+# Forecasting Consumer Spending in the United States
+### Sambo Amaza
+### May 15, 2020
 
-# Introduction
+## Introduction
 
 Consumer spending, also referred to as personal consumption expenditures
 (PCE), is the value of the goods and services purchased by, or on the
@@ -29,8 +23,7 @@ consumer confidence in a nation's economy. Thus, high levels of consumer
 spending is associated with High consumer confidence in the economic
 market. Consumer confidence provides governments and businesses with an
 analysis on consumer perception (Vitez). The goal of this paper is to
-use quantitative, statistical/econometric and machine learning methods
-to studied in ECON 411 (Forecasting Methods) to produce and evaluate
+use quantitative, statistical/econometric and machine learning methods to produce and evaluate
 consumer spending forecasts.
 
 # Data
@@ -48,7 +41,7 @@ estimation and forecast sections because of their predictive ability are
 the S&P 500 stock prices data sourced from Yahoo! Finance and employment
 data from the U.S Bureau of Labor Statistics.
 
-# Model Estimation
+## Model Estimation
 
 In this paper, we make use of a time series model to forecast consumer
 spending in the United States. The time series forecast equation will
@@ -154,7 +147,7 @@ Information Criterion (SIC) because it tends to give more parsimonious
 models that the other selection criteria. Thus, the estimate results for
 each of the VAR models are displayed in the Appendix section.
 
-# Forecast
+## Forecast
 
 Using an estimation period from January 1990 to December 2017, a total
 of 360 observations, as the initial sample estimation to perform
@@ -198,7 +191,7 @@ was going to peak and fall. The 1-step ahead, as indicated by the very
 low RMSE alue in table 4, shows a more accurate forcast of consumer
 spending growth.
 
-# Conclusion
+## Conclusion
 
 The forecast results show that the inclusion of the S&P 500 stock prices
 in a VAR model improves the forecasting of growth rate of consumer
@@ -214,7 +207,7 @@ homoskedastic models, which assume constant volatility, by depending on
 past squared observations and past variances to model for current
 variance. Thus, enhancing the accuracy of ongoing predictions.
 
-# References
+## References
 
 McCully, Clinton P. Trends in Consumer Spending and Personal
 Saving,1959--2009. https://
@@ -233,7 +226,7 @@ https://fred.stlouisfed.org/series/PCE. May 9, 2020. Yahoo! Finance, S&P
 500 \[$^$GSPC\], retrieved from Yahoo! Finance;
 https://finance.yahoo.com. May 9, 2020.
 
-# Appendix
+## Appendix
 
 ![Real Consumer Spending Expenditures 2010 -
 2018](rpce.png){width="14cm" height="9cm"}
