@@ -1,6 +1,6 @@
 # Forecasting Consumer Spending in the United States
-### Sambo Amaza
-### May 15, 2020
+#### Sambo Amaza
+#### May 15, 2020
 
 ## Introduction
 
@@ -233,9 +233,7 @@ https://finance.yahoo.com. May 9, 2020.
 
 ## Appendix
 
-![Real Consumer Spending Expenditures 2010 -
-2018](rpce.png){width="14cm" height="9cm"}
-
-![ACF](acf1.png){width="14cm" height="9cm"}
-
-![PACF](pacf1.png){width="14cm" height="9cm"}
+Refer to [plots folder](https://github.com/samboamaza/forecasting_consumer_spending/tree/main/plots)
+- rpce.png
+- acf1.png
+- pacf1.png
